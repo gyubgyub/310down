@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>3학년10반입니다</title>
+    <script>
+    function myAlertMath()
+    {
+      var userNumber = document.getElementById("mathInput").value;
+      if(userNumber.length == 0)
+      {
+        alert("아무 것도 입력하지 않았습니다.");
+      }
+      else
+      {
+        alert("개발중입니다.");
+      }
+    }
+    </script>
+    <style>
+    div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+    * {
+    box-sizing: border-box;
+}
+        body {
+    margin: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.3%;
+    padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+    .column {
+        width: 30%;
+    }
+}
+.button {
+    background-color: Black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+    </style>
+</head>
+<body>
+
+
+<div class = "header">
+<div style = "text-align :right;"><button onclick = "myAlertMath()">검색</button><input id = "mathInput" type ="text"></div>
+    <h1 style="font-size: 30px; text-align : left">3학년10반 우리들의 이야기:)</h1>
+    <hr>
+</div>
+<div class="topnav">
+  <a href="0310Home.html">Home</a>
+  <a href="0310People.html">사진첩</a>
+  <a href="0310진학상담.html">진로&진학</a>
+    <a href = "0310칭찬노트.html">칭찬노트</a>
+
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <h3><strong>"운다가 보고있다"</strong></h3>
+    <img src="성생닝.jpg" width='400'>
+  </div>
+  <div class="column">
+    <br><br><br>
+    <img src="310main.jpg" width="400">
+  </div>
+  <div class="column">
+    <button class = "button" onclick = "alert('미안 아무것도 없어 히히.');">설문조사 참여</button>
+    <ul>
+      <li><iframe src='http://naver.me/IxLG0jR9' width='600px' height='750px' frameborder='0' scrolling='auto'></iframe></li>
+      <li><iframe src='http://naver.me/5iygT3kv' width='600px' height='750px' frameborder='0' scrolling='auto'></iframe></h3>
+      <li><iframe src='http://naver.me/xv7F6GC7' width='600px' height='750px' frameborder='0' scrolling='auto'></iframe>
+    </ul>
+    <strong>&nbsp;&nbsp;&nbsp;&nbsp;3학년 10반 화이팅 :)</strong>
+  </div>
+</div>
+</html>
